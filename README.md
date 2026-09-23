@@ -1,5 +1,7 @@
 # 🦖 Loja e Dinosaurit (Dino-Game)
 
+Created by **Erion Nezha**
+
 **[Shqip]** | [English below](#english)
 
 Një lojë e thjeshtë dhe klasike e dinosarit e krijuar me **HTML, CSS dhe JavaScript**. Dinosari vrapon automatikisht — detyra jote është ta kërcesh mbi kaktusët që vijnë drejt teje!
@@ -27,7 +29,7 @@ Një lojë e thjeshtë dhe klasike e dinosarit e krijuar me **HTML, CSS dhe Java
 
 ## 📄 Licenca
 
-Ky projekt është i licencuar nën [MIT License](LICENSE).
+Ky projekt është pronë ekskluzive e Erion Nezha — të gjitha të drejtat e rezervuara. Shih [LICENSE](LICENSE).
 
 **Autori:** Erion Nezha
 
@@ -62,6 +64,6 @@ A simple classic dinosaur runner game built with **HTML, CSS and JavaScript**. T
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is the exclusive property of Erion Nezha — all rights reserved. See [LICENSE](LICENSE).
 
 **Author:** Erion Nezha
