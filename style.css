@@ -4,12 +4,26 @@
 }
 body{
     background-color: #d8e6e9;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    margin: 20px 0 10px;
+    font-size: 1.6rem;
+    color: #333;
 }
 .game{
     width: 600px;
     height: 200px;
     border: 1px solid #000000;
     margin: auto;
+    position: relative;
+    transform-origin: top center;
+    background: #fff;
+    overflow: hidden;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 #dino{
@@ -55,7 +69,7 @@ body{
     position: relative;
     top: 91px;
     left: 580px; /*width of frame - width of cactus*/
-    
+
     background-image: url(cactus.png);
     background-size: 20px 40px;
     animation: cactus-block 1.2s infinite linear;
@@ -69,4 +83,47 @@ body{
     100%{
         left: -20px;
     }
+}
+
+#gameover{
+    display: none;
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.88);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 10;
+}
+
+#gameover.show{
+    display: flex;
+}
+
+#gameover p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#restart{
+    font-size: 1rem;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    background: #2e7d32;
+    color: #fff;
+    cursor: pointer;
+}
+
+#restart:active{
+    transform: scale(0.96);
+}
+
+.hint{
+    margin-top: 14px;
+    color: #555;
+    font-size: 0.95rem;
+    padding: 0 12px;
 }
